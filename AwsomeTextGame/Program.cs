@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AwsomeTextGame
-{
-     class Program
+namespace AwsomeTextGame{
+    using Units;
+
+    class Program
     {
         static void Main(string[] args)
         {
-            
+           
             Character newChar = new Character();
             
             int char_id = 3;            
@@ -47,5 +48,6 @@ namespace AwsomeTextGame
         }
     }
 }
+
 
 

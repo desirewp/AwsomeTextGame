@@ -4,8 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-namespace AwsomeTextGame
+namespace AwsomeTextGame.Units
 {
     public class Character
     {
@@ -19,8 +18,5 @@ namespace AwsomeTextGame
             Console.WriteLine("Moved");
         }
 
-
     }
-
 }
-
